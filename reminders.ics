@@ -1,0 +1,5417 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//date_variation//company-business-days//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Company business-day reminders
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:timesheet-2026-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20260901T090000
+DTEND;TZID=Asia/Tokyo:20260901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2026-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20260903T090000
+DTEND;TZID=Asia/Tokyo:20260903T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2026-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20260903T170000
+DTEND;TZID=Asia/Tokyo:20260903T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2026-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261001T090000
+DTEND;TZID=Asia/Tokyo:20261001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2026-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261005T090000
+DTEND;TZID=Asia/Tokyo:20261005T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2026-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261005T170000
+DTEND;TZID=Asia/Tokyo:20261005T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2026-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261102T090000
+DTEND;TZID=Asia/Tokyo:20261102T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2026-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261105T090000
+DTEND;TZID=Asia/Tokyo:20261105T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2026-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261105T170000
+DTEND;TZID=Asia/Tokyo:20261105T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2026-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261201T090000
+DTEND;TZID=Asia/Tokyo:20261201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2026-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261203T090000
+DTEND;TZID=Asia/Tokyo:20261203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2026-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20261203T170000
+DTEND;TZID=Asia/Tokyo:20261203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270104T090000
+DTEND;TZID=Asia/Tokyo:20270104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270106T090000
+DTEND;TZID=Asia/Tokyo:20270106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270106T170000
+DTEND;TZID=Asia/Tokyo:20270106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270201T090000
+DTEND;TZID=Asia/Tokyo:20270201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270203T090000
+DTEND;TZID=Asia/Tokyo:20270203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270203T170000
+DTEND;TZID=Asia/Tokyo:20270203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270301T090000
+DTEND;TZID=Asia/Tokyo:20270301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270303T090000
+DTEND;TZID=Asia/Tokyo:20270303T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270303T170000
+DTEND;TZID=Asia/Tokyo:20270303T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270401T090000
+DTEND;TZID=Asia/Tokyo:20270401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270405T090000
+DTEND;TZID=Asia/Tokyo:20270405T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270405T170000
+DTEND;TZID=Asia/Tokyo:20270405T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270506T090000
+DTEND;TZID=Asia/Tokyo:20270506T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270510T090000
+DTEND;TZID=Asia/Tokyo:20270510T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270510T170000
+DTEND;TZID=Asia/Tokyo:20270510T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270601T090000
+DTEND;TZID=Asia/Tokyo:20270601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270603T090000
+DTEND;TZID=Asia/Tokyo:20270603T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270603T170000
+DTEND;TZID=Asia/Tokyo:20270603T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270701T090000
+DTEND;TZID=Asia/Tokyo:20270701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270705T090000
+DTEND;TZID=Asia/Tokyo:20270705T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270705T170000
+DTEND;TZID=Asia/Tokyo:20270705T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270802T090000
+DTEND;TZID=Asia/Tokyo:20270802T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270804T090000
+DTEND;TZID=Asia/Tokyo:20270804T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270804T170000
+DTEND;TZID=Asia/Tokyo:20270804T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270901T090000
+DTEND;TZID=Asia/Tokyo:20270901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270903T090000
+DTEND;TZID=Asia/Tokyo:20270903T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20270903T170000
+DTEND;TZID=Asia/Tokyo:20270903T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271001T090000
+DTEND;TZID=Asia/Tokyo:20271001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271005T090000
+DTEND;TZID=Asia/Tokyo:20271005T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271005T170000
+DTEND;TZID=Asia/Tokyo:20271005T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271101T090000
+DTEND;TZID=Asia/Tokyo:20271101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271104T090000
+DTEND;TZID=Asia/Tokyo:20271104T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271104T170000
+DTEND;TZID=Asia/Tokyo:20271104T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2027-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271201T090000
+DTEND;TZID=Asia/Tokyo:20271201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2027-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271203T090000
+DTEND;TZID=Asia/Tokyo:20271203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2027-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20271203T170000
+DTEND;TZID=Asia/Tokyo:20271203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280104T090000
+DTEND;TZID=Asia/Tokyo:20280104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280106T090000
+DTEND;TZID=Asia/Tokyo:20280106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280106T170000
+DTEND;TZID=Asia/Tokyo:20280106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280201T090000
+DTEND;TZID=Asia/Tokyo:20280201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280203T090000
+DTEND;TZID=Asia/Tokyo:20280203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280203T170000
+DTEND;TZID=Asia/Tokyo:20280203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280301T090000
+DTEND;TZID=Asia/Tokyo:20280301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280303T090000
+DTEND;TZID=Asia/Tokyo:20280303T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280303T170000
+DTEND;TZID=Asia/Tokyo:20280303T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280403T090000
+DTEND;TZID=Asia/Tokyo:20280403T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280405T090000
+DTEND;TZID=Asia/Tokyo:20280405T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280405T170000
+DTEND;TZID=Asia/Tokyo:20280405T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280501T090000
+DTEND;TZID=Asia/Tokyo:20280501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280508T090000
+DTEND;TZID=Asia/Tokyo:20280508T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280508T170000
+DTEND;TZID=Asia/Tokyo:20280508T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280601T090000
+DTEND;TZID=Asia/Tokyo:20280601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280605T090000
+DTEND;TZID=Asia/Tokyo:20280605T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280605T170000
+DTEND;TZID=Asia/Tokyo:20280605T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280703T090000
+DTEND;TZID=Asia/Tokyo:20280703T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280705T090000
+DTEND;TZID=Asia/Tokyo:20280705T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280705T170000
+DTEND;TZID=Asia/Tokyo:20280705T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280801T090000
+DTEND;TZID=Asia/Tokyo:20280801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280803T090000
+DTEND;TZID=Asia/Tokyo:20280803T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280803T170000
+DTEND;TZID=Asia/Tokyo:20280803T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280901T090000
+DTEND;TZID=Asia/Tokyo:20280901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280905T090000
+DTEND;TZID=Asia/Tokyo:20280905T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20280905T170000
+DTEND;TZID=Asia/Tokyo:20280905T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281002T090000
+DTEND;TZID=Asia/Tokyo:20281002T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281004T090000
+DTEND;TZID=Asia/Tokyo:20281004T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281004T170000
+DTEND;TZID=Asia/Tokyo:20281004T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281101T090000
+DTEND;TZID=Asia/Tokyo:20281101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281106T090000
+DTEND;TZID=Asia/Tokyo:20281106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281106T170000
+DTEND;TZID=Asia/Tokyo:20281106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2028-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281201T090000
+DTEND;TZID=Asia/Tokyo:20281201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2028-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281205T090000
+DTEND;TZID=Asia/Tokyo:20281205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2028-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20281205T170000
+DTEND;TZID=Asia/Tokyo:20281205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290104T090000
+DTEND;TZID=Asia/Tokyo:20290104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290109T090000
+DTEND;TZID=Asia/Tokyo:20290109T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290109T170000
+DTEND;TZID=Asia/Tokyo:20290109T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290201T090000
+DTEND;TZID=Asia/Tokyo:20290201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290205T090000
+DTEND;TZID=Asia/Tokyo:20290205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290205T170000
+DTEND;TZID=Asia/Tokyo:20290205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290301T090000
+DTEND;TZID=Asia/Tokyo:20290301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290305T090000
+DTEND;TZID=Asia/Tokyo:20290305T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290305T170000
+DTEND;TZID=Asia/Tokyo:20290305T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290402T090000
+DTEND;TZID=Asia/Tokyo:20290402T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290404T090000
+DTEND;TZID=Asia/Tokyo:20290404T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290404T170000
+DTEND;TZID=Asia/Tokyo:20290404T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290501T090000
+DTEND;TZID=Asia/Tokyo:20290501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290507T090000
+DTEND;TZID=Asia/Tokyo:20290507T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290507T170000
+DTEND;TZID=Asia/Tokyo:20290507T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290601T090000
+DTEND;TZID=Asia/Tokyo:20290601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290605T090000
+DTEND;TZID=Asia/Tokyo:20290605T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290605T170000
+DTEND;TZID=Asia/Tokyo:20290605T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290702T090000
+DTEND;TZID=Asia/Tokyo:20290702T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290704T090000
+DTEND;TZID=Asia/Tokyo:20290704T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290704T170000
+DTEND;TZID=Asia/Tokyo:20290704T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290801T090000
+DTEND;TZID=Asia/Tokyo:20290801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290803T090000
+DTEND;TZID=Asia/Tokyo:20290803T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290803T170000
+DTEND;TZID=Asia/Tokyo:20290803T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290903T090000
+DTEND;TZID=Asia/Tokyo:20290903T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290905T090000
+DTEND;TZID=Asia/Tokyo:20290905T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20290905T170000
+DTEND;TZID=Asia/Tokyo:20290905T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291001T090000
+DTEND;TZID=Asia/Tokyo:20291001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291003T090000
+DTEND;TZID=Asia/Tokyo:20291003T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291003T170000
+DTEND;TZID=Asia/Tokyo:20291003T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291101T090000
+DTEND;TZID=Asia/Tokyo:20291101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291105T090000
+DTEND;TZID=Asia/Tokyo:20291105T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291105T170000
+DTEND;TZID=Asia/Tokyo:20291105T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2029-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291203T090000
+DTEND;TZID=Asia/Tokyo:20291203T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2029-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291205T090000
+DTEND;TZID=Asia/Tokyo:20291205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2029-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20291205T170000
+DTEND;TZID=Asia/Tokyo:20291205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300104T090000
+DTEND;TZID=Asia/Tokyo:20300104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300108T090000
+DTEND;TZID=Asia/Tokyo:20300108T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300108T170000
+DTEND;TZID=Asia/Tokyo:20300108T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300201T090000
+DTEND;TZID=Asia/Tokyo:20300201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300205T090000
+DTEND;TZID=Asia/Tokyo:20300205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300205T170000
+DTEND;TZID=Asia/Tokyo:20300205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300301T090000
+DTEND;TZID=Asia/Tokyo:20300301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300305T090000
+DTEND;TZID=Asia/Tokyo:20300305T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300305T170000
+DTEND;TZID=Asia/Tokyo:20300305T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300401T090000
+DTEND;TZID=Asia/Tokyo:20300401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300403T090000
+DTEND;TZID=Asia/Tokyo:20300403T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300403T170000
+DTEND;TZID=Asia/Tokyo:20300403T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300501T090000
+DTEND;TZID=Asia/Tokyo:20300501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300507T090000
+DTEND;TZID=Asia/Tokyo:20300507T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300507T170000
+DTEND;TZID=Asia/Tokyo:20300507T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300603T090000
+DTEND;TZID=Asia/Tokyo:20300603T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300605T090000
+DTEND;TZID=Asia/Tokyo:20300605T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300605T170000
+DTEND;TZID=Asia/Tokyo:20300605T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300701T090000
+DTEND;TZID=Asia/Tokyo:20300701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300703T090000
+DTEND;TZID=Asia/Tokyo:20300703T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300703T170000
+DTEND;TZID=Asia/Tokyo:20300703T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300801T090000
+DTEND;TZID=Asia/Tokyo:20300801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300805T090000
+DTEND;TZID=Asia/Tokyo:20300805T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300805T170000
+DTEND;TZID=Asia/Tokyo:20300805T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300902T090000
+DTEND;TZID=Asia/Tokyo:20300902T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300904T090000
+DTEND;TZID=Asia/Tokyo:20300904T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20300904T170000
+DTEND;TZID=Asia/Tokyo:20300904T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301001T090000
+DTEND;TZID=Asia/Tokyo:20301001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301003T090000
+DTEND;TZID=Asia/Tokyo:20301003T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301003T170000
+DTEND;TZID=Asia/Tokyo:20301003T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301101T090000
+DTEND;TZID=Asia/Tokyo:20301101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301106T090000
+DTEND;TZID=Asia/Tokyo:20301106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301106T170000
+DTEND;TZID=Asia/Tokyo:20301106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2030-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301202T090000
+DTEND;TZID=Asia/Tokyo:20301202T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2030-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301204T090000
+DTEND;TZID=Asia/Tokyo:20301204T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2030-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20301204T170000
+DTEND;TZID=Asia/Tokyo:20301204T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310106T090000
+DTEND;TZID=Asia/Tokyo:20310106T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310108T090000
+DTEND;TZID=Asia/Tokyo:20310108T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310108T170000
+DTEND;TZID=Asia/Tokyo:20310108T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310203T090000
+DTEND;TZID=Asia/Tokyo:20310203T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310205T090000
+DTEND;TZID=Asia/Tokyo:20310205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310205T170000
+DTEND;TZID=Asia/Tokyo:20310205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310303T090000
+DTEND;TZID=Asia/Tokyo:20310303T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310305T090000
+DTEND;TZID=Asia/Tokyo:20310305T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310305T170000
+DTEND;TZID=Asia/Tokyo:20310305T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310401T090000
+DTEND;TZID=Asia/Tokyo:20310401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310403T090000
+DTEND;TZID=Asia/Tokyo:20310403T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310403T170000
+DTEND;TZID=Asia/Tokyo:20310403T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310501T090000
+DTEND;TZID=Asia/Tokyo:20310501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310507T090000
+DTEND;TZID=Asia/Tokyo:20310507T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310507T170000
+DTEND;TZID=Asia/Tokyo:20310507T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310602T090000
+DTEND;TZID=Asia/Tokyo:20310602T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310604T090000
+DTEND;TZID=Asia/Tokyo:20310604T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310604T170000
+DTEND;TZID=Asia/Tokyo:20310604T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310701T090000
+DTEND;TZID=Asia/Tokyo:20310701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310703T090000
+DTEND;TZID=Asia/Tokyo:20310703T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310703T170000
+DTEND;TZID=Asia/Tokyo:20310703T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310801T090000
+DTEND;TZID=Asia/Tokyo:20310801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310805T090000
+DTEND;TZID=Asia/Tokyo:20310805T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310805T170000
+DTEND;TZID=Asia/Tokyo:20310805T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310901T090000
+DTEND;TZID=Asia/Tokyo:20310901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310903T090000
+DTEND;TZID=Asia/Tokyo:20310903T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20310903T170000
+DTEND;TZID=Asia/Tokyo:20310903T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311001T090000
+DTEND;TZID=Asia/Tokyo:20311001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311003T090000
+DTEND;TZID=Asia/Tokyo:20311003T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311003T170000
+DTEND;TZID=Asia/Tokyo:20311003T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311104T090000
+DTEND;TZID=Asia/Tokyo:20311104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311106T090000
+DTEND;TZID=Asia/Tokyo:20311106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311106T170000
+DTEND;TZID=Asia/Tokyo:20311106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2031-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311201T090000
+DTEND;TZID=Asia/Tokyo:20311201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2031-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311203T090000
+DTEND;TZID=Asia/Tokyo:20311203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2031-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20311203T170000
+DTEND;TZID=Asia/Tokyo:20311203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320105T090000
+DTEND;TZID=Asia/Tokyo:20320105T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320107T090000
+DTEND;TZID=Asia/Tokyo:20320107T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320107T170000
+DTEND;TZID=Asia/Tokyo:20320107T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320202T090000
+DTEND;TZID=Asia/Tokyo:20320202T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320204T090000
+DTEND;TZID=Asia/Tokyo:20320204T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320204T170000
+DTEND;TZID=Asia/Tokyo:20320204T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320301T090000
+DTEND;TZID=Asia/Tokyo:20320301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320303T090000
+DTEND;TZID=Asia/Tokyo:20320303T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320303T170000
+DTEND;TZID=Asia/Tokyo:20320303T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320401T090000
+DTEND;TZID=Asia/Tokyo:20320401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320405T090000
+DTEND;TZID=Asia/Tokyo:20320405T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320405T170000
+DTEND;TZID=Asia/Tokyo:20320405T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320506T090000
+DTEND;TZID=Asia/Tokyo:20320506T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320510T090000
+DTEND;TZID=Asia/Tokyo:20320510T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320510T170000
+DTEND;TZID=Asia/Tokyo:20320510T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320601T090000
+DTEND;TZID=Asia/Tokyo:20320601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320603T090000
+DTEND;TZID=Asia/Tokyo:20320603T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320603T170000
+DTEND;TZID=Asia/Tokyo:20320603T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320701T090000
+DTEND;TZID=Asia/Tokyo:20320701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320705T090000
+DTEND;TZID=Asia/Tokyo:20320705T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320705T170000
+DTEND;TZID=Asia/Tokyo:20320705T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320802T090000
+DTEND;TZID=Asia/Tokyo:20320802T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320804T090000
+DTEND;TZID=Asia/Tokyo:20320804T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320804T170000
+DTEND;TZID=Asia/Tokyo:20320804T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320901T090000
+DTEND;TZID=Asia/Tokyo:20320901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320903T090000
+DTEND;TZID=Asia/Tokyo:20320903T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20320903T170000
+DTEND;TZID=Asia/Tokyo:20320903T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321001T090000
+DTEND;TZID=Asia/Tokyo:20321001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321005T090000
+DTEND;TZID=Asia/Tokyo:20321005T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321005T170000
+DTEND;TZID=Asia/Tokyo:20321005T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321101T090000
+DTEND;TZID=Asia/Tokyo:20321101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321104T090000
+DTEND;TZID=Asia/Tokyo:20321104T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321104T170000
+DTEND;TZID=Asia/Tokyo:20321104T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2032-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321201T090000
+DTEND;TZID=Asia/Tokyo:20321201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2032-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321203T090000
+DTEND;TZID=Asia/Tokyo:20321203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2032-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20321203T170000
+DTEND;TZID=Asia/Tokyo:20321203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330104T090000
+DTEND;TZID=Asia/Tokyo:20330104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330106T090000
+DTEND;TZID=Asia/Tokyo:20330106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330106T170000
+DTEND;TZID=Asia/Tokyo:20330106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330201T090000
+DTEND;TZID=Asia/Tokyo:20330201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330203T090000
+DTEND;TZID=Asia/Tokyo:20330203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330203T170000
+DTEND;TZID=Asia/Tokyo:20330203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330301T090000
+DTEND;TZID=Asia/Tokyo:20330301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330303T090000
+DTEND;TZID=Asia/Tokyo:20330303T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330303T170000
+DTEND;TZID=Asia/Tokyo:20330303T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330401T090000
+DTEND;TZID=Asia/Tokyo:20330401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330405T090000
+DTEND;TZID=Asia/Tokyo:20330405T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330405T170000
+DTEND;TZID=Asia/Tokyo:20330405T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330502T090000
+DTEND;TZID=Asia/Tokyo:20330502T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330509T090000
+DTEND;TZID=Asia/Tokyo:20330509T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330509T170000
+DTEND;TZID=Asia/Tokyo:20330509T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330601T090000
+DTEND;TZID=Asia/Tokyo:20330601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330603T090000
+DTEND;TZID=Asia/Tokyo:20330603T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330603T170000
+DTEND;TZID=Asia/Tokyo:20330603T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330701T090000
+DTEND;TZID=Asia/Tokyo:20330701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330705T090000
+DTEND;TZID=Asia/Tokyo:20330705T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330705T170000
+DTEND;TZID=Asia/Tokyo:20330705T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330801T090000
+DTEND;TZID=Asia/Tokyo:20330801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330803T090000
+DTEND;TZID=Asia/Tokyo:20330803T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330803T170000
+DTEND;TZID=Asia/Tokyo:20330803T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330901T090000
+DTEND;TZID=Asia/Tokyo:20330901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330905T090000
+DTEND;TZID=Asia/Tokyo:20330905T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20330905T170000
+DTEND;TZID=Asia/Tokyo:20330905T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331003T090000
+DTEND;TZID=Asia/Tokyo:20331003T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331005T090000
+DTEND;TZID=Asia/Tokyo:20331005T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331005T170000
+DTEND;TZID=Asia/Tokyo:20331005T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331101T090000
+DTEND;TZID=Asia/Tokyo:20331101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331104T090000
+DTEND;TZID=Asia/Tokyo:20331104T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331104T170000
+DTEND;TZID=Asia/Tokyo:20331104T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2033-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331201T090000
+DTEND;TZID=Asia/Tokyo:20331201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2033-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331205T090000
+DTEND;TZID=Asia/Tokyo:20331205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2033-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20331205T170000
+DTEND;TZID=Asia/Tokyo:20331205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340104T090000
+DTEND;TZID=Asia/Tokyo:20340104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340106T090000
+DTEND;TZID=Asia/Tokyo:20340106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340106T170000
+DTEND;TZID=Asia/Tokyo:20340106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340201T090000
+DTEND;TZID=Asia/Tokyo:20340201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340203T090000
+DTEND;TZID=Asia/Tokyo:20340203T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340203T170000
+DTEND;TZID=Asia/Tokyo:20340203T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340301T090000
+DTEND;TZID=Asia/Tokyo:20340301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340303T090000
+DTEND;TZID=Asia/Tokyo:20340303T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340303T170000
+DTEND;TZID=Asia/Tokyo:20340303T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340403T090000
+DTEND;TZID=Asia/Tokyo:20340403T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340405T090000
+DTEND;TZID=Asia/Tokyo:20340405T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340405T170000
+DTEND;TZID=Asia/Tokyo:20340405T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340501T090000
+DTEND;TZID=Asia/Tokyo:20340501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340508T090000
+DTEND;TZID=Asia/Tokyo:20340508T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340508T170000
+DTEND;TZID=Asia/Tokyo:20340508T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340601T090000
+DTEND;TZID=Asia/Tokyo:20340601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340605T090000
+DTEND;TZID=Asia/Tokyo:20340605T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340605T170000
+DTEND;TZID=Asia/Tokyo:20340605T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340703T090000
+DTEND;TZID=Asia/Tokyo:20340703T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340705T090000
+DTEND;TZID=Asia/Tokyo:20340705T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340705T170000
+DTEND;TZID=Asia/Tokyo:20340705T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340801T090000
+DTEND;TZID=Asia/Tokyo:20340801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340803T090000
+DTEND;TZID=Asia/Tokyo:20340803T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340803T170000
+DTEND;TZID=Asia/Tokyo:20340803T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340901T090000
+DTEND;TZID=Asia/Tokyo:20340901T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340905T090000
+DTEND;TZID=Asia/Tokyo:20340905T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20340905T170000
+DTEND;TZID=Asia/Tokyo:20340905T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341002T090000
+DTEND;TZID=Asia/Tokyo:20341002T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341004T090000
+DTEND;TZID=Asia/Tokyo:20341004T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341004T170000
+DTEND;TZID=Asia/Tokyo:20341004T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341101T090000
+DTEND;TZID=Asia/Tokyo:20341101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341106T090000
+DTEND;TZID=Asia/Tokyo:20341106T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341106T170000
+DTEND;TZID=Asia/Tokyo:20341106T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2034-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341201T090000
+DTEND;TZID=Asia/Tokyo:20341201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2034-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341205T090000
+DTEND;TZID=Asia/Tokyo:20341205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2034-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20341205T170000
+DTEND;TZID=Asia/Tokyo:20341205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350104T090000
+DTEND;TZID=Asia/Tokyo:20350104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350109T090000
+DTEND;TZID=Asia/Tokyo:20350109T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350109T170000
+DTEND;TZID=Asia/Tokyo:20350109T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350201T090000
+DTEND;TZID=Asia/Tokyo:20350201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350205T090000
+DTEND;TZID=Asia/Tokyo:20350205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350205T170000
+DTEND;TZID=Asia/Tokyo:20350205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350301T090000
+DTEND;TZID=Asia/Tokyo:20350301T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350305T090000
+DTEND;TZID=Asia/Tokyo:20350305T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350305T170000
+DTEND;TZID=Asia/Tokyo:20350305T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350402T090000
+DTEND;TZID=Asia/Tokyo:20350402T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350404T090000
+DTEND;TZID=Asia/Tokyo:20350404T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350404T170000
+DTEND;TZID=Asia/Tokyo:20350404T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350501T090000
+DTEND;TZID=Asia/Tokyo:20350501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350507T090000
+DTEND;TZID=Asia/Tokyo:20350507T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350507T170000
+DTEND;TZID=Asia/Tokyo:20350507T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350601T090000
+DTEND;TZID=Asia/Tokyo:20350601T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350605T090000
+DTEND;TZID=Asia/Tokyo:20350605T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350605T170000
+DTEND;TZID=Asia/Tokyo:20350605T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350702T090000
+DTEND;TZID=Asia/Tokyo:20350702T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350704T090000
+DTEND;TZID=Asia/Tokyo:20350704T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350704T170000
+DTEND;TZID=Asia/Tokyo:20350704T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350801T090000
+DTEND;TZID=Asia/Tokyo:20350801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350803T090000
+DTEND;TZID=Asia/Tokyo:20350803T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350803T170000
+DTEND;TZID=Asia/Tokyo:20350803T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350903T090000
+DTEND;TZID=Asia/Tokyo:20350903T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350905T090000
+DTEND;TZID=Asia/Tokyo:20350905T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-09@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20350905T170000
+DTEND;TZID=Asia/Tokyo:20350905T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351001T090000
+DTEND;TZID=Asia/Tokyo:20351001T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351003T090000
+DTEND;TZID=Asia/Tokyo:20351003T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-10@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351003T170000
+DTEND;TZID=Asia/Tokyo:20351003T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351101T090000
+DTEND;TZID=Asia/Tokyo:20351101T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351105T090000
+DTEND;TZID=Asia/Tokyo:20351105T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-11@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351105T170000
+DTEND;TZID=Asia/Tokyo:20351105T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2035-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351203T090000
+DTEND;TZID=Asia/Tokyo:20351203T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2035-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351205T090000
+DTEND;TZID=Asia/Tokyo:20351205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2035-12@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20351205T170000
+DTEND;TZID=Asia/Tokyo:20351205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360104T090000
+DTEND;TZID=Asia/Tokyo:20360104T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360108T090000
+DTEND;TZID=Asia/Tokyo:20360108T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-01@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360108T170000
+DTEND;TZID=Asia/Tokyo:20360108T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360201T090000
+DTEND;TZID=Asia/Tokyo:20360201T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360205T090000
+DTEND;TZID=Asia/Tokyo:20360205T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-02@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360205T170000
+DTEND;TZID=Asia/Tokyo:20360205T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360303T090000
+DTEND;TZID=Asia/Tokyo:20360303T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360305T090000
+DTEND;TZID=Asia/Tokyo:20360305T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-03@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360305T170000
+DTEND;TZID=Asia/Tokyo:20360305T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360401T090000
+DTEND;TZID=Asia/Tokyo:20360401T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360403T090000
+DTEND;TZID=Asia/Tokyo:20360403T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-04@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360403T170000
+DTEND;TZID=Asia/Tokyo:20360403T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360501T090000
+DTEND;TZID=Asia/Tokyo:20360501T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360507T090000
+DTEND;TZID=Asia/Tokyo:20360507T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-05@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360507T170000
+DTEND;TZID=Asia/Tokyo:20360507T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360602T090000
+DTEND;TZID=Asia/Tokyo:20360602T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360604T090000
+DTEND;TZID=Asia/Tokyo:20360604T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-06@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360604T170000
+DTEND;TZID=Asia/Tokyo:20360604T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360701T090000
+DTEND;TZID=Asia/Tokyo:20360701T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360703T090000
+DTEND;TZID=Asia/Tokyo:20360703T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-07@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360703T170000
+DTEND;TZID=Asia/Tokyo:20360703T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:timesheet-2036-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360801T090000
+DTEND;TZID=Asia/Tokyo:20360801T093000
+SUMMARY:Fill timesheet and file invoices
+DESCRIPTION:First company business day of the month.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fill timesheet and file invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-am-2036-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360805T090000
+DTEND;TZID=Asia/Tokyo:20360805T093000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (morning).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deadline-pm-2036-08@date-variation.local
+DTSTAMP:20260912T002141Z
+DTSTART;TZID=Asia/Tokyo:20360805T170000
+DTEND;TZID=Asia/Tokyo:20360805T173000
+SUMMARY:Deadline: approve timesheets and invoices
+DESCRIPTION:Third company business day of the month (evening).
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deadline: approve timesheets and invoices
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
