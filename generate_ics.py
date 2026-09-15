@@ -13,38 +13,62 @@ from japan_calendar import (
 )
 
 TZID = "Asia/Tokyo"
-CAL_NAME = "Company business-day reminders"
 PRODID = "-//date_variation//company-business-days//EN"
 UID_DOMAIN = "date-variation.local"
 
 # Next 10 years of complete months from this project's "today".
 DEFAULT_START = date(2026, 9, 1)
 DEFAULT_END = date(2036, 8, 31)
-DEFAULT_OUTPUT = Path(__file__).with_name("reminders.ics")
 
-EVENTS = (
-    {
-        "kind": "timesheet",
-        "n": 1,
-        "hour": 9,
-        "summary": "Fill timesheet and file invoices",
-        "description": "First company business day of the month.",
+CALENDARS = {
+    "timesheet": {
+        "cal_name": "Company business-day reminders",
+        "output": Path(__file__).with_name("reminders.ics"),
+        "events": (
+            {
+                "kind": "timesheet",
+                "n": 1,
+                "hour": 9,
+                "summary": "Fill timesheet and file invoices",
+                "description": "First company business day of the month.",
+            },
+            {
+                "kind": "deadline-am",
+                "n": 3,
+                "hour": 9,
+                "summary": "Deadline: approve timesheets and invoices",
+                "description": "Third company business day of the month (morning).",
+            },
+            {
+                "kind": "deadline-pm",
+                "n": 3,
+                "hour": 17,
+                "summary": "Deadline: approve timesheets and invoices",
+                "description": "Third company business day of the month (evening).",
+            },
+        ),
     },
-    {
-        "kind": "deadline-am",
-        "n": 3,
-        "hour": 9,
-        "summary": "Deadline: approve timesheets and invoices",
-        "description": "Third company business day of the month (morning).",
+    "oncall": {
+        "cal_name": "On-call pay reminders",
+        "output": Path(__file__).with_name("oncall_pay.ics"),
+        "events": (
+            {
+                "kind": "oncall-generate",
+                "n": 2,
+                "hour": 9,
+                "summary": "Generate on-call pay and share it with HR",
+                "description": "Second company business day of the month.",
+            },
+            {
+                "kind": "oncall-share",
+                "n": 4,
+                "hour": 9,
+                "summary": "Generate on-call pay and share it with HR",
+                "description": "Fourth company business day of the month.",
+            },
+        ),
     },
-    {
-        "kind": "deadline-pm",
-        "n": 3,
-        "hour": 17,
-        "summary": "Deadline: approve timesheets and invoices",
-        "description": "Third company business day of the month (evening).",
-    },
-)
+}
 
 
 def nth_company_business_day(
@@ -112,7 +136,11 @@ def build_ics(
     start: date = DEFAULT_START,
     end: date = DEFAULT_END,
     dtstamp: datetime | None = None,
+    calendar: str = "timesheet",
 ) -> str:
+    if calendar not in CALENDARS:
+        raise ValueError(f"unknown calendar: {calendar}")
+    spec = CALENDARS[calendar]
     stamp = (dtstamp or datetime.now(timezone.utc)).strftime("%Y%m%dT%H%M%SZ")
     holiday_set = japan_holidays(start.year, end.year)
     lines = [
@@ -121,7 +149,7 @@ def build_ics(
         f"PRODID:{PRODID}",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{_escape(CAL_NAME)}",
+        f"X-WR-CALNAME:{_escape(spec['cal_name'])}",
         f"X-WR-TIMEZONE:{TZID}",
         "BEGIN:VTIMEZONE",
         f"TZID:{TZID}",
@@ -134,15 +162,15 @@ def build_ics(
         "END:VTIMEZONE",
     ]
     for year, month in month_range(start, end):
-        for spec in EVENTS:
-            day = nth_company_business_day(year, month, spec["n"], holiday_set)
+        for event in spec["events"]:
+            day = nth_company_business_day(year, month, event["n"], holiday_set)
             lines.extend(
                 _vevent(
-                    kind=spec["kind"],
+                    kind=event["kind"],
                     day=day,
-                    hour=spec["hour"],
-                    summary=spec["summary"],
-                    description=spec["description"],
+                    hour=event["hour"],
+                    summary=event["summary"],
+                    description=event["description"],
                     dtstamp=stamp,
                 )
             )
@@ -152,16 +180,24 @@ def build_ics(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Write an .ics of 1st/3rd company business-day reminders (Japan + 12/29–1/3 shutdown)."
+        description="Write an .ics of company business-day reminders (Japan + 12/29–1/3 shutdown)."
+    )
+    parser.add_argument(
+        "--calendar",
+        choices=sorted(CALENDARS),
+        default="timesheet",
+        help="Which reminder set to write (default: timesheet).",
     )
     parser.add_argument("--start", type=date.fromisoformat, default=DEFAULT_START)
     parser.add_argument("--end", type=date.fromisoformat, default=DEFAULT_END)
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--output", type=Path, default=None)
     args = parser.parse_args()
-    ics = build_ics(args.start, args.end)
-    args.output.write_bytes(ics.encode("utf-8"))
+    calendar = CALENDARS[args.calendar]
+    output = args.output or calendar["output"]
+    ics = build_ics(args.start, args.end, calendar=args.calendar)
+    output.write_bytes(ics.encode("utf-8"))
     months = len(month_range(args.start, args.end))
-    print(f"Wrote {args.output} ({months} months, {months * len(EVENTS)} events)")
+    print(f"Wrote {output} ({months} months, {months * len(calendar['events'])} events)")
 
 
 if __name__ == "__main__":

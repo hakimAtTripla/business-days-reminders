@@ -48,6 +48,12 @@ def test_december_first_and_third_ignore_year_end_shutdown():
     assert date(2026, 12, 31) not in days
 
 
+def test_january_2029_second_and_fourth_company_days():
+    holidays = japan_holidays(2029, 2029)
+    assert nth_company_business_day(2029, 1, 2, holidays) == date(2029, 1, 5)
+    assert nth_company_business_day(2029, 1, 4, holidays) == date(2029, 1, 10)
+
+
 def test_ics_has_three_timed_events_for_a_known_month():
     ics = build_ics(
         date(2029, 1, 1),
@@ -61,3 +67,17 @@ def test_ics_has_three_timed_events_for_a_known_month():
     assert "DTSTART;TZID=Asia/Tokyo:20290109T170000" in ics
     assert "UID:timesheet-2029-01@date-variation.local" in ics
     assert "Fill timesheet and file invoices" in ics
+
+
+def test_oncall_ics_has_second_and_fourth_day_events():
+    ics = build_ics(
+        date(2029, 1, 1),
+        date(2029, 1, 31),
+        dtstamp=datetime(2026, 9, 12, tzinfo=timezone.utc),
+        calendar="oncall",
+    )
+    assert "X-WR-CALNAME:On-call pay reminders" in ics
+    assert ics.count("BEGIN:VEVENT") == 2
+    assert "DTSTART;TZID=Asia/Tokyo:20290105T090000" in ics
+    assert "DTSTART;TZID=Asia/Tokyo:20290110T090000" in ics
+    assert "Generate on-call pay and share it with HR" in ics
